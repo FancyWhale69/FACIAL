@@ -72,3 +72,4 @@ headpose1 = np.zeros((num_image,258),dtype=np.float32)
 headpose1 = savgol_filter(headpose, 5, 3, axis=0)
 
 np.savez(save_path, face = headpose1)
+print("fit_headpose done")
