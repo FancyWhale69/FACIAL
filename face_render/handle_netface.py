@@ -29,3 +29,4 @@ for i,name in tqdm(zip(range(1,len_mat+1), mat_path_list)):
 
 frames_out_path = os.path.join(param_folder,'train1.npz')
 np.savez(frames_out_path, face = faceshape)
+print("handle_netface done")
