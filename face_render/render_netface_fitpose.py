@@ -169,3 +169,5 @@ for i in range(1,realparams.shape[0]+1):
 		os.mkdir(save_folder)
 
 	io.imsave(os.path.join(save_folder,str("%06d"%(i))+'.jpg'), image)
+	
+print("render_netface_fitpose done")
